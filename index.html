@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jayden Inniss - Intersection Observer!</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="intersector.js"></script>
+</head>
+<body>
+  <header data-header>
+    <nav>
+      <div class="header__logo">
+        <a href="#section1" data-link>Alpine Skiing</a>
+      </div>
+      <ul class="header__list">
+        <li>
+          <a href="#section2" data-link>The Olympics</a>
+        </li>
+        <li>
+          <a href="#section3" data-link>Notable Destinations</a>
+        </li>
+        <li>
+          <a href="#section4" data-link>Sick Video</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section data-section id="section1">
+      <div class="container grid">
+        <h1>Alpine Skiing</h1>
+        <div><script src="https://cdn.htmlgames.com/embed.js?game=DownhillSki&amp;bgcolor=white"></script></div>
+      </div>
+    </section>
+    <section data-section id="section2">
+      <div class="container grid">
+        <h1>Alpine Skiing In The Olympics</h1>
+        <p class="clamp-text">Alpine skiing made its debut at the Winter Olympics in 1936 and has been a prominent feature ever since. The sport consists of racing down snow-covered slopes, where athletes navigate through a series of gates set along the course.<br><br>In Olympic alpine skiing, several disciplines are contested: Downhill is the fastest and involves a long, high-speed course; Slalom features tight turns on a shorter course; Giant Slalom blends speed and technical skill with wider turns; Super-G is a faster, longer version of Giant Slalom with fewer turns; and Alpine Combined combines one run of Downhill with one of Slalom.<br><br>The events are held for both men and women, with times recorded to the hundredth of a second. The skier with the fastest time wins, though penalties can be given for missing gates or other infractions. The sport has evolved with advancements in equipment and techniques, and it continues to attract top competitors from around the world, with iconic athletes like Jean-Claude Killy, Lindsey Vonn, and Marcel Hirscher making their mark. Each Olympic Games features alpine skiing in varied and challenging locations, showcasing the skill and precision required in the sport.</p>
+      </div>
+    </section>
+    <section data-section id="section3">
+      <div class="container grid">
+        <h1 class="animated-header">NOTABLE SKI DESITINATIONS</h1>
+      </div>
+    </section>
+    <section data-section id="section4">
+      <div class="container">
+        <h1>Section 4 Look at my video!</h1>
+        <video id="video" muted autoplay loop>
+          <source src="media/skiing_video.MP4" type="video/mp4" >
+        </video>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
